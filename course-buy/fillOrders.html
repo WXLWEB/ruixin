@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>成达睿信</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/title-logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/title-logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/icon.css" />
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="container">
+        <header class="site-header row hidden-xs">
+            <div class="site-branding col-sm-2">
+                <img class="img-responsive" src="../img/public/logo.png">
+            </div>
+            <div class="search col-sm-5">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                          <button type="submit" class="search-submit btn btn-primary">
+                              <span class="glyphicon glyphicon-search"></span>
+                          </button>
+                          <input type="search" value="" name="s" class="search-field">
+                          <button type="submit" class="search-submit btn btn-primary">
+                              搜索
+                          </button>
+                    </span>
+                </div>
+            </div>
+            <div class="tellphone col-sm-3">
+                <img src="../img/public/tellphone.png">
+                <h2 class="phonenumber">400 888 666</h2>
+            </div>
+            <div class="registration col-sm-2">
+               <a href="../loginOrRegister.html">登录</a>/<a href="../loginOrRegister.html">注册</a>
+            </div>
+        </header>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand visible-xs" href="javascript:void(0)"><img src="../img/public/logo.png"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="dashborderright" href="../index.html">首页<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="../originalArticle.html">原创文章</a></li>
+                    <li><a class="dashborderright" href="../originalVideo.html">原创视频</a></li>
+                    <li><a href="../specialArticles.html">专稿文章</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle dashborderright" data-toggle="dropdown"  href="smartServicesPublicClass.html">智囊服务 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../smartServicesPrivateClass.html">集训营</a></li>
+                            <li><a href="../smartServicesPublicClass.html">公开课</a></li>
+                            <li><a href="../smartServicesPrivateClass.html">内训课</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../specialCollectionPublic.html">专题集锦</a></li>
+                    <li><a class="dashborderright" href="../expert.html">行业专家</a></li>
+                    <li><a href="javascript:void(0)">产业资讯</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="phoneAndRegsiter visible-xs">
+            <a class="phone">资讯热线:400 888 666</a>
+            <div class="regsiter">
+               <a href="../loginOrRegister.html">登录</a>/<a href="../loginOrRegister.html">注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间内容部分-->
+<div class="content clearfloat bgcolor-gray pt1em pb1em">
+    <div class="container">
+        <div class="row">
+            <div class="buy-progress clearfix">
+               <div class="col-xs-12 clearfix">
+                   <ul id="progressbar">
+                       <li  class="active">我的购物车</li>
+                       <li class="active">填写订单</li>
+                       <li>支付订单</li>
+                       <li>完成订单</li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="buy-course mt1em">
+                <div class="cou-head clearfix">
+                    <div class="cou-cate-title col-sm-2 col-xs-12">
+                        ￼内训课
+                    </div>
+                    <div class="col-sm-1 hidden-xs cou-cate-title2">
+                        课程
+                    </div>
+                    <div class="col-sm-2 hidden-xs cou-cate-title2">
+                        人数
+                    </div>
+                    <div class="col-sm-2 hidden-xs cou-cate-title2">
+                        原价
+                    </div>
+                    <div class="col-sm-2 hidden-xs cou-cate-title2">
+                        折扣价
+                    </div>
+                    <div class="col-sm-2 hidden-xs cou-cate-title2">
+                        小计
+                    </div>
+                    <div class="col-sm-1 hidden-xs cou-cate-title2">
+                        删除
+                    </div>
+                </div>
+                <div class="cou-cate clearfix">
+                    <div class="col-sm-3 col-xs-5 pt1em plr0">
+                        <div class="cou-det-img-settlement">
+                        </div>
+                        <div class="hidden-xs">
+                            <h4 >未来设计管理课程</h4>
+                            <p>时间：2012.03.03</p>
+                            <p>地址：北京市海淀区中关村南大街3号海淀科技大 7层</p>
+                        </div>
+                    </div>
+                    <div class="visible-xs col-xs-7">
+                        <h4 >未来设计管理课程</h4>
+                        <p>时间：2012.03.03</p>
+                        <p>地址：北京市海淀区中关村南大街3号海淀科技大 7层</p>
+                    </div>
+                    <div class="col-xs-2 cou-num text-center">
+                        1-50人
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-price">
+                        <span class="icon-uniE603 icon-originalPrice"></span>
+                        <span>¥32000</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-discount">
+                        <span class="icon-uniE602 icon-originalPrice"></span>
+                        <span class="money">¥32000</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-subtotal">
+                        <span class="icon-uniE607 icon-originalPrice"></span>
+                        <span class="money">¥32000</span>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 cou-delete">
+                        <a href="javascript:void(0)">删除</a>
+                    </div>
+                </div>
+                <div class="cou-cate clearfix">
+                    <div class="col-sm-3 col-xs-5 pt1em plr0">
+                        <div class="cou-det-img-settlement">
+                        </div>
+                        <div class="hidden-xs">
+                            <h4 >未来设计管理课程</h4>
+                            <p>时间：2012.03.03</p>
+                            <p>地址：北京市海淀区中关村南大街3号海淀科技大 7层</p>
+                        </div>
+                    </div>
+                    <div class="visible-xs col-xs-7">
+                        <h4 >未来设计管理课程</h4>
+                        <p>时间：2012.03.03</p>
+                        <p>地址：北京市海淀区中关村南大街3号海淀科技大 7层</p>
+                    </div>
+                    <div class="col-xs-2 cou-num text-center">
+                        1-50人
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-price">
+                        <span class="icon-uniE603 icon-originalPrice"></span>
+                        <span>¥32000</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-discount">
+                        <span class="icon-uniE602 icon-originalPrice"></span>
+                        <span class="money">¥32000</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-3 cou-subtotal">
+                        <span class="icon-uniE607 icon-originalPrice"></span>
+                        <span class="money">¥32000</span>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 cou-delete">
+                        <a href="javascript:void(0)">删除</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fillOrders-content mt1em clearfix">
+                <ul>
+                    <li>收票相关信息</li>
+                    <li>发票信息:暂不需要发票
+                        <a href="javascript:void(0)" onclick="$(this).edit_Invoice()">开具发票</a>
+                    <div class="bgcolor-gray clearfix addInvoice-info">
+                        <form role="form" class="clearfix">
+                            <label class="col-sm-2 col-xs-4 text-center control-label">发票抬头:</label>
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadiosPerson"
+                                               value="option1" checked> 个人
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadiosCompany"
+                                           value="option2">
+                                    单位
+                                </label>
+                            </div>
+                            </div>
+                        </form>
+                        <form role="form" class="clearfix">
+                            <label class="col-sm-2 col-xs-4 control-label text-center">发票内容:</label>
+                            <div class="col-sm-2 col-xs-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1"
+                                               value="option1" checked> 技术服务费
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios2"
+                                               value="option2">
+                                        咨询服务费
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-xs-2">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios3"
+                                               value="option2">
+                                        咨询费
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                            </div>
+                        </form>
+                        <div class="col-xs-6 mt1em">
+                            <button type="button" class="btn active btn-sure" value="确定发票信息">确定发票信息</button>
+                        </div>
+                        <div class="col-xs-6 mt1em">
+                            <button type="button" class="btn btn-write" value="暂时不需要发票">暂时不需要发票</button>
+                        </div>
+                    </div>
+                    </li>
+                    <li>默认地址
+                        <a href="javascript:void(0)" onclick="$(this).edit_Address()">修改默认地址</a>
+                        <div class="addAddress-info  bgcolor-gray mt1em">
+                            <form class="form-horizontal clearfix" role="form">
+                                <div class="form-group mt1em">
+                                    <div class="col-xs-6 col-xs-12">
+                                        <div class="input-group mt1em">
+                                            <span class="input-group-addon">姓名:</span>
+                                            <input type="text" class="form-control" id="firstname"
+                                                   placeholder="请输入名字">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-xs-12 mt1em">
+                                        <select class="form-control" id="seachprov" name="seachprov" onChange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"></select>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-12 mt1em">
+                                        <select class="form-control" id="seachcity" name="homecity" onChange="changeCity(this.value,'seachdistrict','seachdistrict');"></select>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-12 mt1em">
+                                        <span id="seachdistrict_div"><select class="form-control" id="seachdistrict" name="seachdistrict"></select></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-9">
+                                        <div class="input-group mt1em">
+                                            <span class="input-group-addon">* 详细地址:</span>
+                                            <input type="text" class="form-control"placeholder="请输入详细地址">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <div class="input-group mt1em">
+                                            <span class="input-group-addon">*邮政编码:</span>
+                                            <input type="text" class="form-control" placeholder="请输入邮政编码">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <div class="input-group mt1em">
+                                            <span class="input-group-addon">* 手机:</span>
+                                            <input type="text" class="form-control" placeholder="请输入手机号码">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group mt1em">
+                                            <span class="input-group-addon">固定电话:</span>
+                                            <input type="text" class="form-control" placeholder="请输入固定电话">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group pb1em pt1em">
+                                    <div class="col-xs-offset-4 col-xs-4 text-right">
+                                        <a href="javascript:void(0)" class="btn btn-blue colse-box">确定</a>
+                                    </div>
+                                    <div class="col-xs-4 text-left">
+                                        <a href="javascript:void(0)" class="btn btn-write colse-box">取消</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-offset-6 col-xs-6 mt1em text-center">
+                            <button type="submit" class="btn btn-blue">提交订单</button>
+                            </div>
+                         </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="footer-nav">
+                    <a href="about.html">公司简介</a>
+                    <a href="about.html">智囊团队</a>
+                    <a href="about.html">成功案例</a>
+                    <a href="about.html">标杆客户</a>
+                    <a href="about.html">人才招聘</a>
+                    <a href="about.html">公司动态</a>
+                    <a href="about.html">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fo-con">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactus">
+                        <img class="hidden-xs qrcode" src="../img/public/qrcode.png">
+                        <h3>联系我们</h3>
+                        <p>电话：185 1145 2966</p>
+                        <p>热线： 010-59496562</p>
+                        <p>QQ： 2222100081</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="link">
+                        <h3>友情链接</h3>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="copyright">
+                    <p>版权所有:北京成达睿信企业管理顾问有限公司 京ICP备13044728</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.leanModal.min.js"></script>
+<script src="../js/Area.js"></script>
+<script src="../js/AreaData_min.js"></script>
+<script src="../js/jquery.hideBox.js"></script>
+<script>
+
+</script>
+
+</html>

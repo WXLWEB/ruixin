@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <meta name="renderer" content="webkit">
+    <title>成达睿信</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/title-logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.min.css" />
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="container">
+        <header class="site-header row hidden-xs">
+            <div class="site-branding col-sm-2">
+                <img class="img-responsive" src="../img/public/logo.png">
+            </div>
+            <div class="search col-sm-5">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                          <button type="submit" class="search-submit btn btn-primary">
+                              <span class="glyphicon glyphicon-search"></span>
+                          </button>
+                          <input type="search" value="" name="s" class="search-field">
+                          <button type="submit" class="search-submit btn btn-primary">
+                              搜索
+                          </button>
+                    </span>
+                </div>
+            </div>
+            <div class="tellphone col-sm-3">
+                <img src="../img/public/tellphone.png">
+                <h2 class="phonenumber">400 888 666</h2>
+            </div>
+            <div class="registration col-sm-2">
+                <a href="../loginOrRegister.html">登录</a>/<a href="../loginOrRegister.html">注册</a>
+            </div>
+        </header>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="javascript:void(0)"><img src="../img/public/logo.png"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="dashborderright" href="../index.html">首页<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a href="../originalArticle.html">原创文章</a></li>
+                        <li><a class="dashborderright" href="../originalVideo.html">原创视频</a></li>
+                        <li><a href="../specialArticles.html">专稿文章</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle dashborderright" data-toggle="dropdown"  href="../smartServicesPublicClass.html">智囊服务 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../smartServicesPrivateClass.html">集训营</a></li>
+                                <li><a href="../smartServicesPublicClass.html">公开课</a></li>
+                                <li><a href="../smartServicesPrivateClass.html">内训课</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../specialCollectionPublic.html">专题集锦</a></li>
+                        <li><a class="dashborderright" href="../expert.html">行业专家</a></li>
+                        <li><a href="javascript:void(0)">产业资讯</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="phoneAndRegsiter visible-xs">
+            <a class="phone">资讯热线:400 888 666</a>
+            <div class="regsiter">
+                <a href="../loginOrRegister.html">登录</a>/<a href="../loginOrRegister.html">注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间内容部分-->
+<div class="content clearfloat bgcolor-gray pb1em">
+    <div class="container">
+    <div class="row mt1em user-cont">
+        <div class="col-md-2 col-sm-3 hidden-xs">
+        <div class="userCenter-slide">
+            <div class="user-img">
+                <img src="../img/public/120x120.png">
+                <div class="user-name">agdsag</div>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item">个人首页</a>
+                <a href="#" class="list-group-item active">我的账户</a>
+                <a href="#" class="list-group-item">我的订单</a>
+                <a href="#" class="list-group-item">我的钱包</a>
+                <a href="#" class="list-group-item">我的购物车</a>
+                <a href="#" class="list-group-item">我的收藏</a>
+                <a href="#" class="list-group-item">我的点评</a>
+                <a href="#" class="list-group-item">我的消息
+                    <span class="badge">14</span>
+                </a>
+                <a href="#" class="list-group-item">退换课程</a>
+            </div>
+        </div>
+
+    </div>
+        <div class="col-md-10 col-sm-9 col-xs-12">
+        <div class="userCenter">
+            <div class="info-Nav clearfix mt1em">
+                <ul class="nav-tabs">
+                    <li class="active col-xs-3">我的信息</li>
+                    <li class="col-xs-3">常用听课人信息</li>
+                    <li class="col-xs-3">常用收发票信息</li>
+                    <li class="col-xs-3">修改密码</li>
+                </ul>
+            </div>
+            <div class="nav-table clearfix">
+                <ul class="userInfoCont">
+                    <li class="active">
+                        <div class="user-info">
+                            <div class="info-img mt2em">
+                                <img src="../img/public/120x120.png">
+                                <a href="javascript:void(0)">上传头像</a>
+                            </div>
+                            <form action="">
+                                <div class="form-group mt2em clearfix">
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">* 昵称:</span>
+                                            <input type="text" class="form-control" value="agdsag">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">* 姓名:</span>
+                                            <input type="text" class="form-control" value="高存修">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <select class="form-control">
+                                            <option>男</option>
+                                            <option>女</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*手机号:</span>
+                                            <input type="text" class="form-control" value="18010028310">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*身份证号码:</span>
+                                            <input type="text" class="form-control" value="360311199208103324">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*公司:</span>
+                                            <input type="text" class="form-control" value="普修平面设计有限公司">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*职务:</span>
+                                            <input type="text" class="form-control" value="设计总监">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*邮编:</span>
+                                            <input type="text" class="form-control" value="1000110">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">*QQ:</span>
+                                            <input type="text" class="form-control" value="2632003615">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-sm-offset-6 col-xs-6 mt2em text-right">
+                                        <input class="btn btn-blue" type="submit" value="保存">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listenPerson-info">
+                            <div class="mt2em text-left">
+                                <a class="btn btn-write" href="javascript:void(0)" onclick="$(this).edit_ListenInfo()" type="button">添加听课人信息</a>
+                            </div>
+                            <div class="addListenInfo">
+                                <form action="">
+                                    <div class="form-group mt2em clearfix">
+                                        <div class="row">
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">* 姓名:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入姓名">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mt1em">
+                                                <select class="form-control">
+                                                    <option selected>男</option>
+                                                    <option>女</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*手机号:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入手机号">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*身份证号码:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入身份证号码">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*公司:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入公司名称">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*职务:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入职务">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*邮箱:</span>
+                                                    <input type="email" class="form-control" placeholder="请输入邮箱">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mt1em">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">*QQ:</span>
+                                                    <input type="text" class="form-control" placeholder="请输入QQ号码">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-6 col-xs-6 mt2em mb1em text-right">
+                                                <input class="btn btn-blue" type="submit" value="保存">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+
+                            <table class="table table-bordered mt2em">
+                                <thead>
+                                <tr>
+                                    <th>姓名</th>
+                                    <th>性别</th>
+                                    <th>手机号</th>
+                                    <th>职位</th>
+                                    <th>公司名称</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>张小名</td>
+                                    <td>男</td>
+                                    <td>18810001000</td>
+                                    <td>前端工程师</td>
+                                    <td>普修平面设计有限公司</td>
+                                    <td><a href="javascript:void (0)">编辑</a>&nbsp;<a href="javascript:void (0)">删除</a></td>
+                                </tr>
+                                <tr>
+                                    <td>张小名</td>
+                                    <td>男</td>
+                                    <td>18810001000</td>
+                                    <td>前端工程师</td>
+                                    <td>普修平面设计有限公司</td>
+                                    <td><a href="javascript:void (0)">编辑</a>&nbsp;<a href="javascript:void (0)">删除</a></td>                        </tr>
+                                </tbody>
+                            </table>
+                            <nav class="nav-page mt1em clearfix">
+                                <ul class="pagination">
+                                    <li class="active"><a href="javascript:void(0)">1</a></li>
+                                    <li><a href="javascript:void(0)">2</a></li>
+                                    <li><a href="javascript:void(0)">3</a></li>
+                                    <li><a href="javascript:void(0)">4</a></li>
+                                    <li><a href="javascript:void(0)">5</a></li>
+                                    <li>
+                                        <a href="javascript:void(0)" aria-label="Previous">
+                                            上一页
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" aria-label="Next">
+                                            下一页
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="invoice-info">
+                            <div class="mt2em text-left">
+                                <a class="btn btn-write" href="javascript:void(0)" onclick="$(this).edit_Address()" type="button">添加收发票信息</a>
+                            </div>
+
+                            <div class="addAddress-info mt1em">
+                                <form class="form-horizontal clearfix" role="form">
+                                    <div class="form-group mt1em">
+                                        <div class="col-xs-6 col-xs-12">
+                                            <div class="input-group mt1em">
+                                                <span class="input-group-addon">姓名:</span>
+                                                <input type="text" class="form-control" id="firstname"
+                                                       placeholder="请输入名字">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-4 col-xs-12 mt1em">
+                                            <select class="form-control" id="seachprov" name="seachprov" onChange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"></select>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-12 mt1em">
+                                            <select class="form-control" id="seachcity" name="homecity" onChange="changeCity(this.value,'seachdistrict','seachdistrict');"></select>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-12 mt1em">
+                                            <span id="seachdistrict_div"><select class="form-control" id="seachdistrict" name="seachdistrict"></select></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-9">
+                                            <div class="input-group mt1em">
+                                                <span class="input-group-addon">* 详细地址:</span>
+                                                <input type="text" class="form-control"placeholder="请输入详细地址">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <div class="input-group mt1em">
+                                                <span class="input-group-addon">*邮政编码:</span>
+                                                <input type="text" class="form-control" placeholder="请输入邮政编码">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <div class="input-group mt1em">
+                                                <span class="input-group-addon">* 手机:</span>
+                                                <input type="text" class="form-control" placeholder="请输入手机号码">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="input-group mt1em">
+                                                <span class="input-group-addon">固定电话:</span>
+                                                <input type="text" class="form-control" placeholder="请输入固定电话">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group pb1em pt1em">
+                                        <div class="col-xs-offset-4 col-xs-4 text-right">
+                                            <a href="javascript:void(0)" class="btn btn-blue colse-box">确定</a>
+                                        </div>
+                                        <div class="col-xs-4 text-left">
+                                            <a href="javascript:void(0)" class="btn btn-write colse-box">取消</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <table class="table table-bordered mt2em">
+                                <thead>
+                                <tr>
+                                    <th>姓名</th>
+                                    <th>详细地址</th>
+                                    <th>手机号</th>
+                                    <th>邮政编码</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><input type="checkbox">张小名</td>
+                                    <td>北京海淀区中关村南大 街3号海淀科技大厦7层</td>
+                                    <td>18810001000</td>
+                                    <td>100002</td>
+                                    <td><a href="javascript:void (0)">编辑</a>&nbsp;<a href="javascript:void (0)">删除</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox">张小名</td>
+                                    <td>北京海淀区中关村南大 街3号海淀科技大厦7层</td>
+                                    <td>18810001000</td>
+                                    <td>100002</td>
+                                    <td><a href="javascript:void (0)">编辑</a>&nbsp;<a href="javascript:void (0)">删除</a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="change-password mt2em">
+                            <form action="">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">当前密码:</span>
+                                            <input type="password" name="pwd" class="form-control required"  id="pwd" placeholder="请输入当前密码">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">新密码:</span>
+                                            <input type="password" name="pwd" class="form-control required"  id="npwd" placeholder="请输入新密码">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 mt1em">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">确认密码:</span>
+                                            <input type="password" name="cpass" class="form-control required" id="cpass" placeholder="请确认密码">
+                                        </div>
+                                        <label id="pwd2_succeed" class="blank"></label>
+                                        <span class="clear"></span>
+                                        <label id="pwd2_error"></label>
+                                    </div>
+                                    <div class="col-xs-12 pb1em">
+                                        <input type="button" name="sure" class="btn btn-gray" value="确认" />
+                                        <input type="button" name="cancel" class="btn btn-write" value="取消" />
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="phoneNav">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <tr>
+                    <td>个人中心</td>
+                    <td class="active">我的账户</td>
+                    <td>我的订单</td>
+                </tr>
+                <tr>
+                    <td>我的钱包</td>
+                    <td>我的购物车</td>
+                    <td>我的收藏</td>
+                </tr>
+                <tr>
+                    <td>我的点评</td>
+                    <td>我的消息</td>
+                    <td>我的购物车</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <a class="visible-xs hidemodal" id="phoneNav-radius" href=".phoneNav">
+        <img src="../img/user/phone-Nav.png">
+    </a>
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="footer-nav">
+                    <a href="about.html">公司简介</a>
+                    <a href="about.html">智囊团队</a>
+                    <a href="about.html">成功案例</a>
+                    <a href="about.html">标杆客户</a>
+                    <a href="about.html">人才招聘</a>
+                    <a href="about.html">公司动态</a>
+                    <a href="about.html">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fo-con">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactus">
+                        <img class="hidden-xs qrcode" src="../img/public/qrcode.png">
+                        <h3>联系我们</h3>
+                        <p>电话：185 1145 2966</p>
+                        <p>热线： 010-59496562</p>
+                        <p>QQ： 2222100081</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="link">
+                        <h3>友情链接</h3>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                        <a>中国砂石协会 西部水泥网 中国混凝土网</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="copyright">
+                    <p>版权所有:北京成达睿信企业管理顾问有限公司 京ICP备13044728</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.leanModal.min.js"></script>
+<script src="../js/jquery.hideBox.js"></script>
+<script src="../js/Area.js"></script>
+<script src="../js/AreaData_min.js"></script>
+<script src="../js/frontMain.js"></script>
+
+</html>
