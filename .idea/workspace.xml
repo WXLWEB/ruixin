@@ -64,14 +64,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/userCenter/userCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6962025" vertical-offset="2821" max-vertical-offset="4710">
-              <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.29602888" vertical-offset="4021" max-vertical-offset="4575">
+              <caret line="356" column="14" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="14" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,9 +81,11 @@
       <file leaf-file-name="experEdit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userCenter/experEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="29.0" vertical-offset="2616" max-vertical-offset="3450">
-              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="-22.125" vertical-offset="1989" max-vertical-offset="2925">
+              <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userInfo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userInfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userCenter/userInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6009852" vertical-offset="2499" max-vertical-offset="5025">
-              <caret line="191" column="46" selection-start-line="191" selection-start-column="46" selection-end-line="191" selection-end-column="46" />
+            <state vertical-scroll-proportion="-10.875" vertical-offset="2499" max-vertical-offset="5025">
+              <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -138,7 +141,6 @@
         <option value="$PROJECT_DIR$/article/articleDetail.html" />
         <option value="$PROJECT_DIR$/article/videoDetail.html" />
         <option value="$PROJECT_DIR$/expert.html" />
-        <option value="$PROJECT_DIR$/userCenter/experEdit.html" />
         <option value="$PROJECT_DIR$/userCenter/userComment.html" />
         <option value="$PROJECT_DIR$/bottomNav/successCase.html" />
         <option value="$PROJECT_DIR$/course-buy/PrivatecourseDetail.html" />
@@ -148,9 +150,10 @@
         <option value="$PROJECT_DIR$/js/frontMain.js" />
         <option value="$PROJECT_DIR$/js/jquery.popmenu.js" />
         <option value="$PROJECT_DIR$/css/index.less" />
-        <option value="$PROJECT_DIR$/userCenter/userCenter.html" />
         <option value="$PROJECT_DIR$/userCenter/userCollect.html" />
         <option value="$PROJECT_DIR$/userCenter/userInfo.html" />
+        <option value="$PROJECT_DIR$/userCenter/userCenter.html" />
+        <option value="$PROJECT_DIR$/userCenter/experEdit.html" />
       </list>
     </option>
   </component>
@@ -400,6 +403,7 @@
           <folding>
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,25 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userCenter/experEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="29.0" vertical-offset="2616" max-vertical-offset="3450">
-          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6962025" vertical-offset="2821" max-vertical-offset="4710">
-          <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userCenter/userCollect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.25" vertical-offset="3531" max-vertical-offset="5700">
@@ -763,9 +748,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userCenter/userInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6009852" vertical-offset="2499" max-vertical-offset="5025">
-          <caret line="191" column="46" selection-start-line="191" selection-start-column="46" selection-end-line="191" selection-end-column="46" />
+        <state vertical-scroll-proportion="-10.875" vertical-offset="2499" max-vertical-offset="5025">
+          <caret line="184" column="50" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/experEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.125" vertical-offset="1989" max-vertical-offset="2925">
+          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29602888" vertical-offset="4021" max-vertical-offset="4575">
+          <caret line="356" column="14" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
