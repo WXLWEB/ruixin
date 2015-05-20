@@ -188,20 +188,20 @@
 <script src="js/plug.min.js"></script>
 <script src="js/frontMain.js"></script>
 <script>
+    function artImgWidth(){
+        var  width = $('.art-det-con').innerWidth();
+        console.log(width);
+        $('#art-det img').each(function () {
+            console.log($(this).width());
+            if ($(this).outerWidth() > width-30) {
+                $(this).addClass("img-responsive")
+            }
+            else{
+                $(this).removeClass("img-responsive")
+            }
+        });
+    }
     $(document).ready(function() {
-        function artImgWidth(){
-            var  width = $('.art-det-con').innerWidth();
-            console.log(width);
-            $('#art-det img').each(function () {
-                console.log($(this).outerWidth());
-                if ($(this).outerWidth() > width-30) {
-                    $(this).addClass("img-responsive")
-                }
-                else{
-                    $(this).removeClass("img-responsive")
-                }
-            });
-        }
         artImgWidth();
         $(window).resize(function(){
             artImgWidth();
