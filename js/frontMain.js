@@ -28,14 +28,6 @@ $(function(){
         console.log($userCenterSlideHeight);
         $('.userCenter-slide').height($userCenterSlideHeight);
     }).change();
-    //个人中心手机的导航弹出框
-    if($('#phoneNav-radius')){
-        $('#phoneNav-radius').leanModal({
-            top:110,
-            overlay:0.45,
-            closeButton:".hidemodal"
-        });
-    }
     //个人中心我的帐户切换
     $('.info-Nav ul li').click(function(){
         //给当前元素添加active样式
