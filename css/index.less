@@ -216,14 +216,14 @@ nav{ }
   .title{font-size: 1.2em;margin:0;text-align: left;}
   .author{float: right;font-size: 0.8em; margin-bottom: 0;margin-right: 0.8em;color: @lightblack;}
   .date{float: right;font-size: 0.8em; margin-bottom: 0;color: @lightblack;}
-  .pointAndjudge{border-top: 1px dashed @lightblack;}
-  .point{margin-top:0.8em;margin-right:0.8em;float: left;}
-  .views{ margin-top:0.8em;float: right;margin-right: 0.5em; img{padding-right:0.4em}}
-  .praise{ margin-top:0.8em;float: right;margin-right: 0.5em;img{padding-right:0.4em}}
-  .despise{ margin-top:0.8em;float: right;img{padding-right:0.4em}}
-  .collect{margin-top:0.8em;float: right;margin-right: 0.5em;img{padding-right:0.4em}}
-  .art-describle{padding-left: 0;padding-right: 0;}
 }
+.pointAndjudge{border-top: 1px dashed @lightblack;}
+.point{margin-top:0.8em;margin-right:0.8em;float: left;}
+.views{ margin-top:0.8em;float: right;margin-right: 0.5em; img{padding-right:0.4em}}
+.praise{ margin-top:0.8em;float: right;margin-right: 0.5em;img{padding-right:0.4em}}
+.despise{ margin-top:0.8em;float: right;img{padding-right:0.4em}}
+.collect{margin-top:0.8em;float: right;margin-right: 0.5em;img{padding-right:0.4em}}
+.art-describle{padding-left: 0;padding-right: 0;}
 .art-describle{height: 5.5em;word-break: break-all;padding: 1em;
   p{margin-bottom: 0;text-align: left;}}
 .art-title{height: 3.5em;word-break: break-all;}
@@ -326,6 +326,11 @@ nav{ }
   .cou-time,.cou-name,.cou-address,.cou-teacher{text-align: left;color: @lightblack;}
   .cou-img{}
   .cou-detail{padding: 0.8em}
+  .origin-price{
+    color: @lightblack;
+    border-top: 1px dashed @lightgray;
+    padding: 0.8em
+  }
 }
 //促销
 .promotion{background-color: @red;position: absolute;top:0;right:7.5px;z-index: 10;padding:0 1em;
@@ -470,6 +475,7 @@ nav{ }
       color:@yellow;vertical-align: middle;text-align: left;
     }
   }
+
 }
 //收票地址
 .fillOrders-content{background-color: @white;padding: 1em;
