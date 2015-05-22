@@ -76,7 +76,7 @@
                             <li class="dropdown">
                                 <a class="dropdown-toggle dashborderright" data-toggle="dropdown"  href="smartServicesPublicClass.html">智囊服务 <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="smartServicesPrivateClass.html">集训营</a></li>
+                                    <li><a href="smartServicesPrivateClass.html">管理咨询</a></li>
                                     <li><a href="smartServicesPublicClass.html">公开课</a></li>
                                     <li><a href="smartServicesPrivateClass.html">内训课</a></li>
                                 </ul>
@@ -206,9 +206,11 @@
             </div>
         </div>
     </div>
-<div id="phone_box">
+<div id="phone_box" class="visible-xs">
     <div class="pop_ctrl"><img src="../img/user/phone-Nav.png" alt=""/></div>
     <ul id="pop_ul">
+        <li class="pop_li"><a href="#">我的作品</a></li>
+        <li class="pop_li"><a href="#">发布文章</a></li>
         <li class="pop_li"><a href="#">个人首页</a></li>
         <li class="pop_li"><a href="#">个人信息</a></li>
         <li class="pop_li"><a href="#">我的收藏</a></li>
@@ -217,6 +219,7 @@
 </div>
 <script src="../js/plug.min.js"></script>
 <script src="../js/frontMain.js"></script>
+<script src="../js/jquery.popmenu.js"></script>
 <script type="text/javascript">
     $(function(){
         $('#phone_box').popmenu();

@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       },
         "my_target":{
             "files":{
-                'js/plug.min.js':['js/jquery.min.js','js/bootstrap.min.js','js/jquery.leanModal.min.js','js/jquery.hideBox.js','js/jquery.fitvids.js','js/jquery.rowsControl.js','js/popover.js','js/owl.carousel.js']
+                'js/plug.min.js':['js/jquery.min.js','js/bootstrap.min.js','js/jquery.leanModal.min.js','js/jquery.hideBox.js','js/jquery.fitvids.js','js/jquery.rowsControl.js','js/popover.js','js/owl.carousel.js','js/jquery.popmenu.js']
             }
         }
 
