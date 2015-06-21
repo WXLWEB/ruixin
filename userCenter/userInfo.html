@@ -126,9 +126,9 @@
                         <div class="user-info">
                             <div class="info-img mt2em">
                                 <img src="../img/public/120x120.png">
-                                <a href="javascript:void(0)">上传头像</a>
+                                <a href="javascript:void(0)" id="import">上传头像</a>
                             </div>
-                            <form action="">
+                            <form class="info-box" action="">
                                 <div class="form-group mt2em clearfix">
                                     <div class="row">
                                         <div class="col-sm-6 mt1em">
@@ -197,7 +197,39 @@
 
                                 </div>
                             </form>
+                        <div class="img-change" style="display: none">
+                            <div class="col-sm-7 mt2em">
+                                <div class="imageBox">
+                                    <div class="thumbBox"></div>
+                                    <div class="spinner" style="display: none">Loading...</div>x
+                                </div>
 
+                                <form class="action">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <div class="fileUpload btn btn-basic">
+                                                <span>上传图片</span>
+                                                <input type="file" id="file" class="upload" />
+                                            </div>
+                                            <p class="help-block" style="display: none">请上传正确格式的图片</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <input type="button" class="btn btn-blue btn-sm" id="btnCrop" value="确认" style="float: right">
+                                        <input type="button" class="btn btn-blue btn-sm mr1em"  id="btnZoomIn" value="+" style="float: right">
+                                        <input type="button" class="btn btn-blue btn-sm mr1em"  id="btnZoomOut" value="-" style="float: right">
+                                    </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-5 mt2em">
+                                <div class="cropped"></div>
+                            </div>
+                            <div class="col-xs-12 text-right pb1em">
+                                <input class="btn btn-blue" type="submit" value="保存">
+                            </div>
+                        </div>
                         </div>
                     </li>
                     <li>
@@ -319,12 +351,44 @@
     </div>
 </div>
 </body>
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/jquery.leanModal.min.js"></script>
-<script src="../js/jquery.hideBox.js"></script>
-<script src="../js/Area.js"></script>
-<script src="../js/AreaData_min.js"></script>
+<script src="../js/plug.min.js"></script>
 <script src="../js/frontMain.js"></script>
-
+<script src="../js/jquery.popmenu.js"></script>
+<script src="../js/cropbox.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        var options =
+        {
+            thumbBox: '.thumbBox',
+            spinner: '.spinner',
+            imgSrc: '../img/expert/expert-img.png'
+        }
+        var cropper = $('.imageBox').cropbox(options);
+        $('#file').on('change', function(){
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                options.imgSrc = e.target.result;
+                cropper = $('.imageBox').cropbox(options);
+            }
+            reader.readAsDataURL(this.files[0]);
+            this.files = [];
+        })
+        $('#btnCrop').on('click', function(){
+            var img = cropper.getDataURL();
+            $('.cropped').empty().append('<img src="'+img+'">');
+        })
+        $('#btnZoomIn').on('click', function(){
+            cropper.zoomIn();
+        })
+        $('#btnZoomOut').on('click', function(){
+            cropper.zoomOut();
+        })
+    });
+    $(function(){
+         $('#import').click(function(){
+        $('.info-box').hide();
+        $('.img-change').show();
+    });
+    })
+</script>
 </html>
